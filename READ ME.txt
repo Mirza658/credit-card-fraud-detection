@@ -1,0 +1,93 @@
+#Credit Card Fraud Detection - Machine Learning Project
+
+A machine learning project that detects fraudulent transactions using the **Credit Card Fraud Detection** dataset. The data is highly imbalanced, with only 0.17% of transactions being fraudulent — making this an ideal case for anomaly detection techniques.
+
+---
+
+## Overview
+
+**Goal**: Build a classification model that accurately identifies fraudulent credit card transactions.
+
+**Techniques Used**:
+- Data cleaning & EDA
+- Feature scaling with `StandardScaler`
+- Handling class imbalance using **SMOTE**
+- Training models (Logistic Regression, Random Forest, etc.)
+- Evaluating model performance using **ROC-AUC**, **confusion matrix**, and **precision-recall**
+
+---
+
+## Tools & Libraries
+
+- Python (Pandas, NumPy)
+- scikit-learn
+- imbalanced-learn (SMOTE)
+- matplotlib & seaborn
+- Jupyter / Google Colab
+
+---
+
+---
+
+## Key Steps
+
+1. **Data Cleaning**
+   - Checked for nulls, duplicates
+   - Dropped unnecessary columns (`Time`, `Amount` after scaling)
+
+2. **Feature Scaling**
+   - Applied `StandardScaler` to normalize the `Amount` column
+
+3. **Class Imbalance Handling**
+   - Applied **SMOTE** to balance the dataset
+
+4. **Model Training**
+   - Trained Logistic Regression and Random Forest classifiers
+
+5. **Model Evaluation**
+   - Used confusion matrix, classification report, and ROC-AUC score
+
+---
+
+## Results
+
+| Model               | ROC-AUC Score |
+|---------------------|---------------|
+| Logistic Regression | 0.96 (approx) |
+| Random Forest       | 0.98 (approx) |
+
+ROC Curve and confusion matrix visuals are in the `visuals/` folder.
+
+---
+
+##  Dataset
+
+- Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+
+---
+
+## How to Run
+
+1. Clone the repo  
+   `git clone 
+
+2. Install dependencies  
+   `pip install -r requirements.txt`
+
+3. Open the notebook  
+   `CreditCard_Fraud_Detection.ipynb`
+
+---
+
+## Connect with Me
+
+Feel free to reach out if you're working on something similar or have any questions!
+
+**[LinkedIn](https://www.linkedin.com/in/jamaal-ali-baig-mirza-648850202/)** • **[GitHub](https://github.com/Mirza658/Mirza)**
+
+---
+
+## License
+
+This project is open-source and free to use under the MIT License.
