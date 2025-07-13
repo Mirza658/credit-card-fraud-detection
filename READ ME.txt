@@ -1,8 +1,6 @@
 #Credit Card Fraud Detection - Machine Learning Project
 
-A machine learning project that detects fraudulent transactions using the **Credit Card Fraud Detection** dataset. The data is highly imbalanced, with only 0.17% of transactions being fraudulent — making this an ideal case for anomaly detection techniques.
-
----
+A machine learning project that detects fraudulent transactions using the **Credit Card Fraud Detection** dataset. The data is highly imbalanced, with only 0.17% of transactions being fraudulent â€” making this an ideal case for anomaly detection techniques.
 
 ## Overview
 
@@ -15,8 +13,6 @@ A machine learning project that detects fraudulent transactions using the **Cred
 - Training models (Logistic Regression, Random Forest, etc.)
 - Evaluating model performance using **ROC-AUC**, **confusion matrix**, and **precision-recall**
 
----
-
 ## Tools & Libraries
 
 - Python (Pandas, NumPy)
@@ -25,9 +21,6 @@ A machine learning project that detects fraudulent transactions using the **Cred
 - matplotlib & seaborn
 - Jupyter / Google Colab
 
----
-
----
 
 ## Key Steps
 
@@ -47,8 +40,6 @@ A machine learning project that detects fraudulent transactions using the **Cred
 5. **Model Evaluation**
    - Used confusion matrix, classification report, and ROC-AUC score
 
----
-
 ## Results
 
 | Model               | ROC-AUC Score |
@@ -58,14 +49,10 @@ A machine learning project that detects fraudulent transactions using the **Cred
 
 ROC Curve and confusion matrix visuals are in the `visuals/` folder.
 
----
-
 ##  Dataset
 
 - Source: [Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
 
-
----
 
 ## How to Run
 
@@ -78,15 +65,12 @@ ROC Curve and confusion matrix visuals are in the `visuals/` folder.
 3. Open the notebook  
    `CreditCard_Fraud_Detection.ipynb`
 
----
-
 ## Connect with Me
 
 Feel free to reach out if you're working on something similar or have any questions!
 
-**[LinkedIn](https://www.linkedin.com/in/jamaal-ali-baig-mirza-648850202/)** • **[GitHub](https://github.com/Mirza658/Mirza)**
+**[LinkedIn](https://www.linkedin.com/in/jamaal-ali-baig-mirza-648850202/)** â€¢ **[GitHub](https://github.com/Mirza658)**
 
----
 
 ## License
 
